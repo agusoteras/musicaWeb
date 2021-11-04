@@ -1,0 +1,41 @@
+.footer {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    
+}
+.footer_info{
+    font-size: 11px;
+    color: teal;
+    font-family: 'Roboto', sans-serif;
+}
+.footer_contact{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.footer_contact a {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: thistle;
+    font-size: 30px;
+}
+.footer_contact a:hover {
+    color: teal;
+}
+
+
+
+@media screen and (max-width:800px) {
+    .footer {
+        width: 100vh;
+    }
+    .footer_contact a {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    
+}
