@@ -3,6 +3,7 @@ import "./Header.css";
 import vinyl from "../../Media/vinyl.mp4";
 
 export const Header = () => {
+
     return (
         <div className="header-container">
             <video className="video" src ={vinyl} autoPlay loop muted /> 
@@ -11,4 +12,3 @@ export const Header = () => {
         </div>
     )
 }
-
